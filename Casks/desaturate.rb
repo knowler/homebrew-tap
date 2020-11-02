@@ -8,5 +8,5 @@ cask "desaturate" do
   desc "OS X menu bar app for toggling the grayscale display"
   homepage "https://github.com/seenaburns/Desaturate"
 
-  app "Desaturate-#{version}.app"
+  app "Desaturate-#{version}.app", target: "Desaturate.app"
 end
